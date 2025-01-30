@@ -94,7 +94,6 @@ span {
 }
 .mainimage {
   min-height: 500px;
-  min-width: 500px;
   width: 30vw; /* 50% szerokości ekranu */
   height: 30vw; /* Wysokość równa szerokości, aby zachować kwadrat */
 
