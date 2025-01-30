@@ -48,8 +48,8 @@ h1 {
 @media (max-width: 768px) {
   .animacion_burger_menu {
     font-size: 50px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 @media (min-width: 768px) {
