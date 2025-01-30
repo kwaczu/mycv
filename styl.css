@@ -1,0 +1,217 @@
+body {
+  background-color: #0f0f20;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.header {
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_text {
+  display: flex;
+}
+.logo {
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: -20px 10px 50px rgba(0, 153, 255, 0.8);
+  margin: 25px;
+}
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0%;
+}
+.animacion_burger_menu {
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .animacion_burger_menu {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .animacion_burger_menu {
+    font-size: 50px;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+span {
+  background-color: black;
+  height: 10px;
+  width: 80%;
+  border-radius: 148px;
+  margin-top: 5px;
+}
+.cta-button {
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #ff00ff, #ff6b6b);
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff6b6b, #ff00ff);
+}
+.mainimage {
+  min-height: 500px;
+  min-width: 500px;
+  width: 30vw; /* 50% szerokości ekranu */
+  height: 30vw; /* Wysokość równa szerokości, aby zachować kwadrat */
+
+  margin: 20px auto; /* Wycentrowanie obrazu */
+  display: block;
+  box-shadow: -30px -40px 200px #3429d6;
+
+  border-radius: 10%;
+  margin: 50px auto;
+}
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center; /* Wyśrodkowanie zawartości */
+  align-items: center; /* Zapobieganie przyleganiu obrazu do krawędzi */
+  flex-wrap: wrap; /* Umożliwienie lepszego dostosowania */
+  gap: 20px; /* Dodatkowy odstęp między elementami */
+}
+
+@media (max-width: 768px) {
+  .mainimage {
+    margin: 20px auto; /* Wycentrowanie obrazu */
+    display: block;
+  }
+}
+
+h2 {
+  font-size: 5.5vw;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px;
+  min-width: 450px;
+  padding: 50px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box_text_1 {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 1vw;
+  height: 400px;
+  width: 35%;
+}
+.box_text_2 {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 1vw;
+  width: 55%;
+  height: 400px;
+}
+.box_text_3 {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 1vw;
+  height: 400px;
+  width: 55%;
+}
+.box_text_4 {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 20px;
+  margin: 1vw;
+  width: 35%;
+  height: 400px;
+}
+@media (max-width: 1000px) {
+  .box_text_1 {
+    width: 100%;
+  }
+  .box_text_2 {
+    width: 100%;
+  }
+  .box_text_3 {
+    width: 100%;
+  }
+  .box_text_4 {
+    width: 100%;
+  }
+}
+.footer_text {
+  display: flex;
+  height: 300px;
+}
+p {
+  width: 50%;
+}
+h3 {
+  width: 50%;
+}
+img {
+}
+.link {
+  background-color: rgb(163, 69, 69);
+  border-radius: 100%;
+  width: 10vw;
+  height: 10vw;
+}
+.footer_button {
+  display: flex;
+  justify-content: space-between; /* Rozstawia elementy na maksymalną szerokość */
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.button_social {
+  display: flex;
+  /* Ustawia obrazy social na lewo */
+  gap: 10px; /* Dodaje odstępy między ikonami */
+}
+
+.button_arow {
+  display: flex;
+}
+h3 {
+  font-size: 3vw;
+  margin: 5%;
+}
+p {
+  font-size: 2vw;
+  margin: 5%;
+}
